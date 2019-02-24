@@ -6,9 +6,9 @@ module.exports = Object.assign({}, jsConfig, {
     jsx: true,
   },
   plugins: ['@typescript-eslint'],
-  rules: {
+  rules: Object.assign({}, jsConfig.rules, {
     'no-unused-vars': 'off',
     'no-undef': 'off',
     'import/no-unresolved': 'off',
-  },
+  }),
 });
