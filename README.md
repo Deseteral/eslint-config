@@ -25,9 +25,7 @@ Then you gotta setup your `.eslintrc` to extend that config:
 The last thing you have to do is put linting script in your project's `package.json`:
 ```json
 "scripts": {
-  // ...
-  "lint": "eslint src --ext js,jsx,ts,tsx",
-  // ...
+  "lint": "eslint src --ext js,jsx,ts,tsx"
 }
 ```
 
