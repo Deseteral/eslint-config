@@ -1,4 +1,4 @@
-# ESLint config
+# Deseteral ESLint config
 
 > Customized Airbnb ESLint configuration for JavaScript and TypeScript projects
 
