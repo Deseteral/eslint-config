@@ -1,13 +1,11 @@
 const jsConfig = require('./javascript');
 
 module.exports = Object.assign({}, jsConfig, {
-  parser: 'typescript-eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     jsx: true,
   },
-  plugins: [
-    'typescript',
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
     'no-unused-vars': 'off',
     'no-undef': 'off',
