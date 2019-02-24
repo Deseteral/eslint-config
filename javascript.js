@@ -10,6 +10,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
     'react/destructuring-assignment': ['error', 'always', { ignoreClassFields: true }],
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+    'react/jsx-one-expression-per-line': 'off',
   },
 };
