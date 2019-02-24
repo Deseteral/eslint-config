@@ -1,0 +1,11 @@
+{
+  "name": "@deseteral/eslint-config",
+  "version": "1.0.0",
+  "description": "Customized Airbnb ESLint configuration for JavaScript and TypeScript projects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Deseteral <deseteral@gmail.com>",
+  "license": "MIT"
+}
