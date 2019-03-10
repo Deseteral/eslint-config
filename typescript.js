@@ -14,5 +14,8 @@ module.exports = Object.assign({}, jsConfig, {
 
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
+
+    // TypeScript specific rules
+    "react/jsx-filename-extension": ['error', { "extensions": [".jsx", ".tsx"] }]
   }),
 });

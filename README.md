@@ -29,5 +29,15 @@ The last thing you have to do is put linting script in your project's `package.j
 }
 ```
 
+## Changelog
+
+### [1.1.0] - 2019-03-10
+#### Added
+- JSX is now allowed in files with `.tsx` extension.
+
+### [1.0.0] - 2019-02-24
+- Initial release.
+
+
 ## License
 This project is licensed under the [MIT license](LICENSE).
