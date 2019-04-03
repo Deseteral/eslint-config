@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [1.2.0] - 2019-04-03
+#### Added
+- Rule specifing use of operator linebreak.
+
 ### [1.1.0] - 2019-03-10
 #### Added
 - JSX is now allowed in files with `.tsx` extension.
