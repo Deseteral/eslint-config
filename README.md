@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [1.3.1] - 2019-05-08
+#### Fixed
+- Babel parser is now in dependencies not dev dependencies.
+
 ### [1.3.0] - 2019-05-08
 #### Changed
 - ESLint is now using Babel as its code parser.
