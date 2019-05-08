@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [1.3.0] - 2019-05-08
+#### Changed
+- ESLint is now using Babel as its code parser.
+
 ### [1.2.0] - 2019-04-03
 #### Added
 - Rule specifing use of operator linebreak.
