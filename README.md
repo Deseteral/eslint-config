@@ -31,6 +31,12 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [2.0.0] - 2019-12-31
+#### Changed
+- Upgraded ESLint version
+- Upgraded Airbnb config
+- Enabled TypeScript extensions for `import/extensions` rule
+
 ### [1.3.1] - 2019-05-08
 #### Fixed
 - Babel parser is now in dependencies not dev dependencies.
