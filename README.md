@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [2.0.1] - 2019-12-31
+#### Fixed
+- Disabled `import/extensions` for TypeScript projects
+
 ### [2.0.0] - 2019-12-31
 #### Changed
 - Upgraded ESLint version

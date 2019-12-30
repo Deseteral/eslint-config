@@ -1,6 +1,6 @@
 {
   "name": "@deseteral/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Customized Airbnb ESLint configuration for JavaScript and TypeScript projects",
   "main": "index.js",
   "scripts": {

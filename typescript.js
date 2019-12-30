@@ -14,22 +14,12 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-undef': 'off',
     'import/no-unresolved': 'off',
+    'import/extensions': 'off',
 
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
 
     // TypeScript specific rules
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        mjs: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   },
 };
