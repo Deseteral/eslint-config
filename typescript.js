@@ -19,6 +19,10 @@ module.exports = {
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
 
+    // Rules colliding with ESLint
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': 'error',
+
     // TypeScript specific rules
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   },
