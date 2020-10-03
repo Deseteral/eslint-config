@@ -31,6 +31,15 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [3.0.0] - 2020-10-03
+#### Changed
+- Upgraded ESLint version
+- Upgraded Airbnb config
+- Enabled rules of Hooks
+- Allowed using `_id` as variable name (for MongoDB `ObjectID` representation)
+#### Fixed
+- Fixed false-positive `Cannot read property 'map' of undefined` errors for TypeScript
+
 ### [2.0.1] - 2019-12-31
 #### Fixed
 - Disabled `import/extensions` for TypeScript projects
