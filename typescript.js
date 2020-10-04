@@ -18,6 +18,8 @@ module.exports = {
 
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
+    'no-unused-expressions': 'off',
+    '@typescript-eslint/no-unused-expressions': 'error',
 
     // Rules colliding with ESLint
     'no-useless-constructor': 'off',
