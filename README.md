@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [3.0.2] - 2020-10-06
+#### Fixed
+- Fixed false-positive `no-use-before-define` when using TypeScript
+
 ### [3.0.1] - 2020-10-04
 #### Fixed
 - Fixed false-positive `no-unused-expressions` when using optional call expressions in TypeScript

@@ -18,8 +18,12 @@ module.exports = {
 
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
+
+    // ESLint built-in rules that are replaced by their TypeScript equivalent
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'error',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': 'error',
 
     // Rules colliding with ESLint
     'no-useless-constructor': 'off',
