@@ -31,6 +31,11 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [3.0.3] - 2021-03-15
+#### Fixed
+- Fixed false-positive `no-shadow` when defining enums in TypeScript
+
+
 ### [3.0.2] - 2020-10-06
 #### Fixed
 - Fixed false-positive `no-use-before-define` when using TypeScript

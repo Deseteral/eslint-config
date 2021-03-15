@@ -22,12 +22,15 @@ module.exports = {
     // ESLint built-in rules that are replaced by their TypeScript equivalent
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'error',
+
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': 'error',
 
-    // Rules colliding with ESLint
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
 
     // TypeScript specific rules
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
