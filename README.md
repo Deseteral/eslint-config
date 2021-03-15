@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [4.0.0] - 2021-03-15
+#### Changed
+- Upgraded ESLint
+
 ### [3.0.3] - 2021-03-15
 #### Fixed
 - Fixed false-positive `no-shadow` when defining enums in TypeScript
