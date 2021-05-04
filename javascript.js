@@ -1,6 +1,9 @@
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+  },
   env: {
     browser: true,
     node: true,
