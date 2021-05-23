@@ -34,5 +34,6 @@ module.exports = {
 
     // TypeScript specific rules
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+    '@typescript-eslint/type-annotation-spacing': 'error',
   },
 };

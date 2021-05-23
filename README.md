@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [5.0.0] - 2021-05-23
+#### Changed
+- Added `type-annotation-spacing` rule for TypeScript
+
 ### [4.1.0] - 2021-05-04
 #### Changed
 - Upgraded deps
