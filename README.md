@@ -31,6 +31,14 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [5.1.0] - 2021-10-31
+#### Changed
+- Turned off `react/require-default-props'` rule for TypeScript
+
+### [5.0.1] - 2021-10-29
+#### Fixed
+- Migrated package-lock to version 2
+
 ### [5.0.0] - 2021-05-23
 #### Changed
 - Added `type-annotation-spacing` rule for TypeScript

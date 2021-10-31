@@ -15,6 +15,7 @@ module.exports = {
     'no-undef': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
+    'react/require-default-props': 'off',
 
     // Rules that don't work well with TypeScript
     'lines-between-class-members': 'off',
