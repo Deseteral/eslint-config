@@ -31,6 +31,12 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [6.0.0] - 2022-04-09
+#### Changed
+- Upgraded deps. ESLint 8 is now minimum required version.
+- Removed disabling `dot-notation` rule.
+- Replaced `import/prefer-default-export` with `import/no-default-export` rule.
+
 ### [5.1.0] - 2021-10-31
 #### Changed
 - Turned off `react/require-default-props'` rule for TypeScript
