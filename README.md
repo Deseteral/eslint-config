@@ -31,6 +31,11 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [6.0.1] - 2022-04-09
+#### Fixed
+- Bad config for `import/no-default-export`.
+- Added `function-paren-newline` rule.
+
 ### [6.0.0] - 2022-04-09
 #### Changed
 - Upgraded deps. ESLint 8 is now minimum required version.
