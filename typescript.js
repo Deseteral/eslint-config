@@ -34,8 +34,7 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
 
-    'indent': 'off',
-    '@typescript-eslint/indent': ['error', 2],
+    /* indent rule is broken, and there is no fix as of 2022-05-24 */
 
     // TypeScript specific rules
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
