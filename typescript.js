@@ -1,3 +1,4 @@
+/* eslint-disable quote-props */
 const jsConfig = require('./javascript');
 
 module.exports = {
@@ -32,6 +33,9 @@ module.exports = {
 
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
+
+    'indent': 'off',
+    '@typescript-eslint/indent': ['error', 2],
 
     // TypeScript specific rules
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],

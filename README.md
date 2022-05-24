@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [6.0.2] - 2022-05-24
+#### Fixed
+- Replaced `indent` with it's TypeScript equivalent.
+
 ### [6.0.1] - 2022-04-09
 #### Fixed
 - Bad config for `import/no-default-export`.
