@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [7.0.0] - 2023-01-13
+#### Changed
+- Upgraded ESLint rules dependencies.
+
 ### [6.1.1] - 2023-01-13
 #### Fixed
 - Upgraded dependencies.
