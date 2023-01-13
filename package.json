@@ -1,6 +1,6 @@
 {
   "name": "@deseteral/eslint-config",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "Customized Airbnb ESLint configuration for JavaScript and TypeScript projects",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@babel/core": "7.17.9",
-    "@babel/eslint-parser": "7.17.0",
-    "@typescript-eslint/eslint-plugin": "5.18.0",
-    "@typescript-eslint/parser": "5.18.0",
+    "@babel/core": "7.20.12",
+    "@babel/eslint-parser": "7.19.1",
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
@@ -23,6 +23,6 @@
     "eslint-plugin-react-hooks": "4.4.0"
   },
   "devDependencies": {
-    "eslint": "8.13.0"
+    "eslint": "8.31.0"
   }
 }

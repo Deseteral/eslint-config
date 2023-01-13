@@ -31,6 +31,10 @@ The last thing you have to do is put linting script in your project's `package.j
 
 ## Changelog
 
+### [6.1.1] - 2023-01-13
+#### Fixed
+- Upgraded dependencies.
+
 ### [6.1.0] - 2022-12-31
 #### Changed
 - Disabled `no-dupe-class-members` because it's handled by TypeScript.
